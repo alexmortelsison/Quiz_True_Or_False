@@ -14,6 +14,14 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
+            VStack(spacing: 300) {
+                Text("Questions")
+                    .titleText()
+                VStack(spacing: 20) {
+                    AnswerButton(answerText: "True", color: .clear)
+                    AnswerButton(answerText: "False", color: .clear)
+                }
+            }
         }
     }
 }
@@ -21,3 +29,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+

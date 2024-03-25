@@ -11,6 +11,8 @@
 		182382BB2BB1994D00F7727F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182382BA2BB1994D00F7727F /* ContentView.swift */; };
 		182382BD2BB1994F00F7727F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182382BC2BB1994F00F7727F /* Assets.xcassets */; };
 		182382C02BB1994F00F7727F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182382BF2BB1994F00F7727F /* Preview Assets.xcassets */; };
+		182382C92BB1A24E00F7727F /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182382C82BB1A24E00F7727F /* AnswerButton.swift */; };
+		182382CB2BB1A2B400F7727F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182382CA2BB1A2B400F7727F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		182382BA2BB1994D00F7727F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		182382BC2BB1994F00F7727F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182382BF2BB1994F00F7727F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		182382C82BB1A24E00F7727F /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		182382CA2BB1A2B400F7727F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				182382B82BB1994D00F7727F /* Quiz_True_Or_FalseApp.swift */,
 				182382BA2BB1994D00F7727F /* ContentView.swift */,
+				182382C82BB1A24E00F7727F /* AnswerButton.swift */,
+				182382CA2BB1A2B400F7727F /* Extensions.swift */,
 				182382BC2BB1994F00F7727F /* Assets.xcassets */,
 				182382BE2BB1994F00F7727F /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				182382BB2BB1994D00F7727F /* ContentView.swift in Sources */,
 				182382B92BB1994D00F7727F /* Quiz_True_Or_FalseApp.swift in Sources */,
+				182382C92BB1A24E00F7727F /* AnswerButton.swift in Sources */,
+				182382CB2BB1A2B400F7727F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
